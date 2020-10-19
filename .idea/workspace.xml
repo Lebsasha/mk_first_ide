@@ -30,8 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18477b21-65b5-4466-90af-9ed3b0ed69f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.cidr.embedded.config" />
   </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD mk_ft">
@@ -95,7 +96,8 @@
       <workItem from="1603050008605" duration="630000" />
       <workItem from="1603051877356" duration="3316000" />
       <workItem from="1603114446743" duration="320000" />
-      <workItem from="1603114878888" duration="2797000" />
+      <workItem from="1603114878888" duration="4135000" />
+      <workItem from="1603121598008" duration="2329000" />
     </task>
     <servers />
   </component>
@@ -119,21 +121,45 @@
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="312" y="53" width="736" height="634" key="#Inspections/0.0.1366.742@0.0.1366.742" timestamp="1603117190267" />
-    <state x="141" y="29" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603055998006">
+    <state x="141" y="29" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603133559464">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state x="141" y="29" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.742@0.0.1366.742" timestamp="1603055998006" />
-    <state x="436" y="115" width="488" height="509" key="FileChooserDialogImpl" timestamp="1603055978332">
+    <state x="141" y="29" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.742@0.0.1366.742" timestamp="1603133559464" />
+    <state x="436" y="115" width="488" height="509" key="FileChooserDialogImpl" timestamp="1603133519317">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state x="436" y="115" width="488" height="509" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1603055978332" />
+    <state x="436" y="115" width="488" height="509" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1603133519317" />
+    <state width="1324" height="178" key="GridCell.Tab.0.bottom" timestamp="1603134162809">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="1324" height="178" key="GridCell.Tab.0.bottom/0.0.1366.742@0.0.1366.742" timestamp="1603134162809" />
+    <state width="1324" height="178" key="GridCell.Tab.0.center" timestamp="1603134162808">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="1324" height="178" key="GridCell.Tab.0.center/0.0.1366.742@0.0.1366.742" timestamp="1603134162808" />
+    <state width="1324" height="178" key="GridCell.Tab.0.left" timestamp="1603134162807">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="1324" height="178" key="GridCell.Tab.0.left/0.0.1366.742@0.0.1366.742" timestamp="1603134162807" />
+    <state width="1324" height="178" key="GridCell.Tab.0.right" timestamp="1603134162808">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="1324" height="178" key="GridCell.Tab.0.right/0.0.1366.742@0.0.1366.742" timestamp="1603134162808" />
     <state x="293" y="12" key="SettingsEditor" timestamp="1603054582303">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="293" y="12" key="SettingsEditor/0.0.1366.742@0.0.1366.742" timestamp="1603054582303" />
+    <state width="498" height="445" key="SwitcherDM" timestamp="1603119278578">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state width="498" height="445" key="SwitcherDM/0.0.1366.742@0.0.1366.742" timestamp="1603119278578" />
     <state x="176" y="80" width="804" height="525" key="Vcs.Push.Dialog.v2" timestamp="1603055512033">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="176" y="80" width="804" height="525" key="Vcs.Push.Dialog.v2/0.0.1366.742@0.0.1366.742" timestamp="1603055512033" />
+    <state x="346" y="63" width="672" height="678" key="search.everywhere.popup" timestamp="1603132237966">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="346" y="63" width="672" height="678" key="search.everywhere.popup/0.0.1366.742@0.0.1366.742" timestamp="1603132237966" />
   </component>
 </project>

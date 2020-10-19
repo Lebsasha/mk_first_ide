@@ -84,15 +84,26 @@ int main(void)
 
   /* Initialize all configured peripherals */
   /* USER CODE BEGIN 2 */
-
+    int counter=0;
+    GPIO_PinState state;
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+      HAL_Delay(5000);
+//		state=HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_5);
+      HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
+      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, 0);
+      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, 1);
+      HAL_Delay(2000);
+      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, 1);
+      HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
+      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, 0);
+//		HAL_Delay(500);
     /* USER CODE END WHILE */
-
+//HAL_GPIO_TogglePin(GPIO_)
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

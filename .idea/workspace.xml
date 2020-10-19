@@ -30,33 +30,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18477b21-65b5-4466-90af-9ed3b0ed69f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Inc/main.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_hal_conf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_hal_msp.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/syscalls.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/sysmem.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/system_stm32f1xx.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Startup/startup_stm32f103c8tx.s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_mk Debug.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cproject" beforeDir="false" afterPath="$PROJECT_DIR$/.cproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/OCD_mk_ft.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/language.settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STM32F103C8TX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/STM32F103C8TX_FLASH.ld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mk_ft.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/mk_ft.ioc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +95,7 @@
       <workItem from="1603050008605" duration="630000" />
       <workItem from="1603051877356" duration="3316000" />
       <workItem from="1603114446743" duration="320000" />
-      <workItem from="1603114878888" duration="1317000" />
+      <workItem from="1603114878888" duration="2797000" />
     </task>
     <servers />
   </component>
@@ -140,6 +115,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="312" y="53" width="736" height="634" key="#Inspections" timestamp="1603117190267">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="312" y="53" width="736" height="634" key="#Inspections/0.0.1366.742@0.0.1366.742" timestamp="1603117190267" />
     <state x="141" y="29" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603055998006">
       <screen x="0" y="0" width="1366" height="742" />
     </state>

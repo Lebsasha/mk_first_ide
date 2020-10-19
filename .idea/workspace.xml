@@ -30,13 +30,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18477b21-65b5-4466-90af-9ed3b0ed69f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_hal_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_hal_msp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/syscalls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/sysmem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/system_stm32f1xx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Startup/startup_stm32f103c8tx.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_mk Debug.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cproject" beforeDir="false" afterPath="$PROJECT_DIR$/.cproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/OCD_mk_ft.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/language.settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32F103C8TX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/STM32F103C8TX_FLASH.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mk_ft.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/mk_ft.ioc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +66,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -75,6 +96,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OCD mk_ft" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mk_ft" TARGET_NAME="mk_ft.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="mk_ft" RUN_TARGET_NAME="mk_ft.elf">
+      <openocd gdb-port="3333" telnet-port="4444" board-config="$PROJECT_DIR$/first_mk Debug.cfg" reset-type="INIT" download-type="ALWAYS" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.mk_ft.elf" />
       <item itemvalue="OpenOCD Download &amp; Run.OCD mk_ft" />
@@ -91,7 +118,9 @@
       <option name="presentableId" value="Default" />
       <updated>1603049975119</updated>
       <workItem from="1603050008605" duration="630000" />
-      <workItem from="1603051877356" duration="2583000" />
+      <workItem from="1603051877356" duration="3316000" />
+      <workItem from="1603114446743" duration="320000" />
+      <workItem from="1603114878888" duration="1317000" />
     </task>
     <servers />
   </component>
@@ -108,19 +137,24 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="436" y="115" width="488" height="509" key="FileChooserDialogImpl" timestamp="1603054464742">
+    <state x="141" y="29" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603055998006">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state x="436" y="115" width="488" height="509" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1603054464742" />
+    <state x="141" y="29" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.742@0.0.1366.742" timestamp="1603055998006" />
+    <state x="436" y="115" width="488" height="509" key="FileChooserDialogImpl" timestamp="1603055978332">
+      <screen x="0" y="0" width="1366" height="742" />
+    </state>
+    <state x="436" y="115" width="488" height="509" key="FileChooserDialogImpl/0.0.1366.742@0.0.1366.742" timestamp="1603055978332" />
     <state x="293" y="12" key="SettingsEditor" timestamp="1603054582303">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
     <state x="293" y="12" key="SettingsEditor/0.0.1366.742@0.0.1366.742" timestamp="1603054582303" />
-    <state x="176" y="80" width="804" height="525" key="Vcs.Push.Dialog.v2" timestamp="1603054431230">
+    <state x="176" y="80" width="804" height="525" key="Vcs.Push.Dialog.v2" timestamp="1603055512033">
       <screen x="0" y="0" width="1366" height="742" />
     </state>
-    <state x="176" y="80" width="804" height="525" key="Vcs.Push.Dialog.v2/0.0.1366.742@0.0.1366.742" timestamp="1603054431230" />
+    <state x="176" y="80" width="804" height="525" key="Vcs.Push.Dialog.v2/0.0.1366.742@0.0.1366.742" timestamp="1603055512033" />
   </component>
 </project>

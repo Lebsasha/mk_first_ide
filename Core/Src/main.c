@@ -95,7 +95,7 @@ int main(void)
   while (1)
   {
       HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
-      HAL_Delay(5000);
+      HAL_Delay(10000);
       state=HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_5);
       if (state==GPIO_PIN_RESET)
       {
